@@ -109,8 +109,8 @@ const FlowersCard = () => {
                                     autoPlay
                                     playsInline
                                     muted
-                                    loop={true} // No loop to keep control over playback
-                                    style={{ backgroundColor: "transparent", mixBlendMode: "multiply" }} />
+                                    loop={true}
+                                    style={{ backgroundColor: "transparent", mixBlendMode: "screen" }} />
                             </motion.div>
                             <label className="block text-gray-700 text-sm font-bold mb-2">
                                 Enter your address for delivery 📍
