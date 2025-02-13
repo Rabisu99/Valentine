@@ -59,7 +59,7 @@ const ValentineCard = ({ removeHeart, onYesPressed }) => {
 
   return (
     <div>
-      <motion.div className="z-10 h-screen flex flex-col justify-center items-center px-6 text-center">
+      <motion.div className="z-10 h-[100dvh] flex flex-col justify-center items-center px-6 text-center">
         {showHeartbreak ? (
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
@@ -116,7 +116,7 @@ const ValentineCard = ({ removeHeart, onYesPressed }) => {
             }}
             transition={{
               repeat: Infinity,
-              duration: 50,
+              duration: 14,
               ease: "linear",
             }}
             whileTap={{ scale: 0.9 }}
