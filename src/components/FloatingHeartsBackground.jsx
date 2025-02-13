@@ -18,7 +18,7 @@ const FloatingHeartsBackground = ({ children }) => {
     };
 
     return (
-        <div className="h-screen w-screen bg-gradient-to-b from-pink-200 to-white flex justify-center items-center relative overflow-hidden">
+        <div className="h-[100dvh] w-screen bg-gradient-to-b from-pink-200 to-white flex justify-center items-center relative overflow-hidden">
             {/* Render hearts dynamically */}
             {hearts.map((heart) => (
                 <motion.div

@@ -49,7 +49,7 @@ const FlowersCard = () => {
     return (
         <>
             <motion.div
-                className="h-screen flex flex-col justify-center items-center px-6 text-center"
+                className="h-[100dvh] flex flex-col justify-center items-center px-6 text-center"
                 initial={{ opacity: 0, y: 500 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -500 }}
@@ -110,8 +110,7 @@ const FlowersCard = () => {
                                     playsInline
                                     muted
                                     loop={true} // No loop to keep control over playback
-                                    style={{ background: "none" }}
-                                />
+                                    style={{ backgroundColor: "transparent", mixBlendMode: "multiply" }} />
                             </motion.div>
                             <label className="block text-gray-700 text-sm font-bold mb-2">
                                 Enter your address for delivery 📍

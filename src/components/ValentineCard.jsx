@@ -74,7 +74,7 @@ const ValentineCard = ({ removeHeart, onYesPressed }) => {
               playsInline
               muted
               loop={false} // No loop to keep control over playback
-              style={{ background: "none" }}
+              style={{ backgroundColor: "transparent", mixBlendMode: "multiply" }}
             />
           </motion.div>
         ) : (
