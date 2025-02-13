@@ -7,7 +7,6 @@ const FlowersCard = () => {
     const [address, setAddress] = useState("");
     const [submitted, setSubmitted] = useState(false);
     const [declined, setDeclined] = useState(false);
-    const videoRef = useRef(null);
 
     const handleAccept = () => {
         setResponse("accept");
@@ -102,9 +101,8 @@ const FlowersCard = () => {
                                 animate={{ opacity: 1, scale: 1.5 }}
                                 transition={{ duration: 0.5 }}
                             >
-                                <video
-                                    ref={videoRef}
-                                    src="/flowers.webm"
+                                <img
+                                    src="/flowers-yo.gif"
                                     className="w-32 h-32"
                                     autoPlay
                                     playsInline

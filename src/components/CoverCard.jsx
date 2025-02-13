@@ -3,7 +3,7 @@ import { Heart } from "lucide-react"; // Using Lucide-react icons
 
 const CoverCard = () => {
     return (
-        <div className="h-screen flex flex-col justify-center items-center px-6 text-center">
+        <div className="h-[100dvh] flex flex-col justify-center items-center px-6 text-center">
             {/* Main Text */}
             <h1 className="text-3xl font-semibold text-gray-800 leading-tight">
                 A little something special for you... 💌
